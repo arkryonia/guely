@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "joogbe"
+version = "0.1.0"
+description = ""
+authors = ["Hodonou SOUNTON <arkryonia@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "^0.15.0"
+fastapi = "^0.70.0"
+python-multipart = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
